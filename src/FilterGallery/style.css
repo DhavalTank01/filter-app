@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Yaldevi:wght@300&display=swap");
+* {
+  font-family: "Yaldevi", sans-serif;
+
+}
+body {
+  background-color: cornsilk !important;
+}
+/* header */
+.nav_bar {
+  text-align: center;
+  padding: 10px 0px;
+  background-color: #f8f9fa;
+}
+/* footer */
+.footer-box {
+  text-align: center;
+  padding: 10px 0px;
+  background-color: #f8f9fa;
+}
+.footer-box > h5 {
+  font-weight: bold;
+}
+/* body */
+
+.btn1 {
+  margin: 5px !important;
+}
+.CardBox {
+  margin: 5px !important;
+  box-shadow: 0px 0px 6px 1px lightgrey !important;
+  max-width: 400px;
+  max-height: 400px;
+}
+.CardBox:hover {
+  box-shadow: 0px 0px 2px 4px aliceblue !important;
+}
+.CardBox:hover img  {
+  /* box-shadow: 0px 0px 2px 4px aliceblue !important; */
+  transform: scale(1.03);
+}
+.CardBox img {
+  display: block;
+  margin: auto;
+  width: 370px;
+  height: 200px;
+  transition: all 0.5s ease-in-out;
+}
+/* .CardBox img:hover {
+  transform: scale(1.03);
+} */
+.btn1:hover {
+  transform: scale(1.03);
+  font-weight: bold;
+}
+.btn2:hover {
+  transform: scale(1.03);
+  font-weight: bold;
+}
+
+/*  */
+@media (min-width: 300px) and (max-width: 350px) {
+  .CardBox {
+    margin: 10px 0px !important;
+    box-shadow: 0px 0px 6px 1px lightgrey !important;
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .CardBox img {
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: auto;
+    max-width: 218px;
+  }
+}
+@media (min-width: 350px) and (max-width: 400px) {
+  .CardBox {
+    margin: 10px 0px !important;
+    box-shadow: 0px 0px 6px 1px lightgrey !important;
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .CardBox img {
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: auto;
+    max-width: 270px;
+  }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  .CardBox {
+    margin: 10px 0px !important;
+    box-shadow: 0px 0px 6px 1px lightgrey !important;
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .CardBox img {
+    display: block;
+    margin: auto;
+    height: 200px;
+    /* width: auto;  */
+    max-width: 340px;
+  }
+}
